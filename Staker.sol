@@ -34,7 +34,7 @@ contract Staker {
         uint256 _silverTier,
         uint256 _goldTier
     ) {
-        i_end = block.timestamp + 2 * 24 * 60 * 60; // 2 days after launching contract
+        i_end = block.timestamp + 2 days;
         s_treshhold = _treshhold;
         tiers[0] = _bronzeTier;
         tiers[1] = _silverTier;
